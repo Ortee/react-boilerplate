@@ -12,7 +12,6 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Layout}>
       <IndexRoute component={First}></IndexRoute>
-      <Route path="first" name="first" component={First}></Route>
       <Route path="second" name="second" component={Second}></Route>
     </Route>
   </Router>,

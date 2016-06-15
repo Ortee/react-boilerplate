@@ -1,10 +1,14 @@
 import React from "react";
 
 export default class Second extends React.Component {
+  constructor(){
+    super();
+    console.log("SECOND CLASS LOADED");
+  }
   render() {
     return (
       <div>
-        FirstClass
+        SECOND COMPONENT
       </div>
     );
   }
