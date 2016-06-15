@@ -6,11 +6,12 @@ import Nav from "../components/layout/Nav";
 
 export default class Layout extends React.Component {
   render() {
+    const { location } = this.props;
     return (
       <div>
-        LayoutPage
+        <Nav location={location} />
+        <Footer />
       </div>
-
     );
   }
 }

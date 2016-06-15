@@ -7,9 +7,9 @@ export default class Footer extends React.Component {
   }
 
   render() {
-    const { location } = this.props;
-    const firstClass = location.pathname === "/" ? "active" : "";
-    const secondClass = location.pathname.match(/^\/second/) ? "active" : "";
+    // const { location } = this.props;
+    // const firstClass = location.pathname === "/" ? "active" : "";
+    // const secondClass = location.pathname.match(/^\/second/) ? "active" : "";
 
 
     return (

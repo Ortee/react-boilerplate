@@ -12,9 +12,8 @@ export default class Nav extends React.Component {
     const SecondClass = location.pathname.match(/^\/archives/) ? "active" : "";
 
     return (
-      <div>
-        NAV
-      </div>
+      <nav class="navbar navbar-inverse">
+      </nav>
     );
   }
 }
